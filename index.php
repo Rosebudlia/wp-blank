@@ -11,6 +11,10 @@
 			<?php get_template_part('pagination'); ?>
 
 		</section>
+
+		<div class="main-widget">
+			<?php if(!function_exists('dynamic_sidebar') || !dynamic_sidebar('widget-area-1')) ?>
+		</div>
 		<!-- /section -->
 	</main>
 

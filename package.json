@@ -1,0 +1,23 @@
+{
+  "name": "html5blank",
+  "version": "1.0.0",
+  "description": "Powerful shell for rapidly deploying your WordPress projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://gutenthe@gutenmorgenberlin.com:21098/home/gutenthe/public_html/dev/wp-content/themes/html5blank"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.11.0"
+  },
+  "dependencies": {}
+}
