@@ -16,8 +16,13 @@
 			<?php if(!function_exists('dynamic_sidebar') || !dynamic_sidebar('widget-area-1')) ?>
 		</div>
 		<!-- /section -->
+
+		//This is a comment
+	<!--This is also a comment-->
 	</main>
 
-<?php get_sidebar(); ?>
+	
+
+//<?php get_sidebar(); ?>
 
 <?php get_footer(); ?>
